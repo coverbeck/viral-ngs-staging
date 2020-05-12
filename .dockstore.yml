@@ -3,99 +3,165 @@ workflows:
  - name: align_and_count
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/align_and_count.wdl
+   testParameterFiles:
+     - foo.json
  - name: align_and_plot
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/align_and_plot.wdl
+   testParameterFiles:
+     - foo.json
  - name: assemble_denovo
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/assemble_denovo.wdl
+   testParameterFiles:
+     - foo.json
  - name: assemble_refbased
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/assemble_refbased.wdl
+   testParameterFiles:
+     - foo.json
  - name: bams_multiqc
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/bams_multiqc.wdl
+   testParameterFiles:
+     - foo.json
  - name: build_augur_tree
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/build_augur_tree.wdl
+   testParameterFiles:
+     - foo.json
  - name: classify_kaiju
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/classify_kaiju.wdl
+   testParameterFiles:
+     - foo.json
  - name: classify_kraken2
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/classify_kraken2.wdl
+   testParameterFiles:
+     - foo.json
  - name: classify_krakenuniq
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/classify_krakenuniq.wdl
+   testParameterFiles:
+     - foo.json
  - name: classify_multi
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/classify_multi.wdl
+   testParameterFiles:
+     - foo.json
  - name: contigs
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/contigs.wdl
+   testParameterFiles:
+     - foo.json
  - name: coverage_table
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/coverage_table.wdl
+   testParameterFiles:
+     - foo.json
  - name: demux_metag
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/demux_metag.wdl
+   testParameterFiles:
+     - foo.json
  - name: demux_only
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/demux_only.wdl
+   testParameterFiles:
+     - foo.json
  - name: demux_plus
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/demux_plus.wdl
+   testParameterFiles:
+     - foo.json
  - name: deplete_only
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/deplete_only.wdl
+   testParameterFiles:
+     - foo.json
  - name: downsample
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/downsample.wdl
+   testParameterFiles:
+     - foo.json
  - name: fastq_to_ubam
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/fastq_to_ubam.wdl
+   testParameterFiles:
+     - foo.json
  - name: fetch_annotations
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/fetch_annotations.wdl
+   testParameterFiles:
+     - foo.json
  - name: fetch_sra_to_bam
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/fetch_sra_to_bam.wdl
+   testParameterFiles:
+     - foo.json
  - name: filter_classified_bam_to_taxa
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/filter_classified_bam_to_taxa.wdl
+   testParameterFiles:
+     - foo.json
  - name: genbank
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/genbank.wdl
+   testParameterFiles:
+     - foo.json
  - name: isnvs_merge_to_vcf
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/isnvs_merge_to_vcf.wdl
+   testParameterFiles:
+     - foo.json
  - name: isnvs_one_sample
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/isnvs_one_sample.wdl
+   testParameterFiles:
+     - foo.json
  - name: kraken2_build
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/kraken2_build.wdl
+   testParameterFiles:
+     - foo.json
  - name: mafft_and_trim
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/mafft_and_trim.wdl
+   testParameterFiles:
+     - foo.json
  - name: mafft
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/mafft.wdl
+   testParameterFiles:
+     - foo.json
  - name: merge_bams
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/merge_bams.wdl
+   testParameterFiles:
+     - foo.json
  - name: merge_metagenomics
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/merge_metagenomics.wdl
+   testParameterFiles:
+     - foo.json
  - name: merge_tar_chunks
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/merge_tar_chunks.wdl
+   testParameterFiles:
+     - foo.json
  - name: multiqc_only
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/multiqc_only.wdl
+   testParameterFiles:
+     - foo.json
  - name: scaffold_and_refine
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/scaffold_and_refine.wdl
+   testParameterFiles:
+     - foo.json
  - name: trimal
    subclass: WDL
    primaryDescriptorPath: pipes/WDL/flattened/trimal.wdl
+   testParameterFiles:
+     - foo.json
